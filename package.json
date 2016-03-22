@@ -1,0 +1,42 @@
+{
+  "name": "koa-starter",
+  "version": "0.0.1",
+  "description": "My koa API starter",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "nodemon ./app/app.js",
+    "test": "node ./tests/tests.js | faucet"
+  },
+  "engines": {
+    "node": "4.2.3"
+  },
+  "keywords": [
+    "co",
+    "knex",
+    "koajs",
+    "mvc",
+    "starter"
+  ],
+  "author": "Rohan Nair <r@rohannair.ca>",
+  "license": "MIT",
+  "dependencies": {
+    "co": "^4.6.0",
+    "co-body": "^4.0.0",
+    "knex": "^0.10.0",
+    "koa": "^1.2.0",
+    "koa-bouncer": "^5.0.1",
+    "koa-cors": "0.0.16",
+    "koa-logger": "^1.3.0",
+    "koa-router": "^5.4.0",
+  },
+  "devDependencies": {
+    "chalk": "^1.1.1",
+    "eslint": "^2.4.0",
+    "eslint-config-airbnb": "^6.1.0",
+    "faucet": "0.0.1",
+    "glob": "^7.0.3",
+    "nodemon": "^1.9.1",
+    "path": "^0.12.7",
+    "tape": "^4.5.1"
+  }
+}
